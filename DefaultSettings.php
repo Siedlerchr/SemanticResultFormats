@@ -63,10 +63,10 @@ $GLOBALS['srfgFormats'] = [
 	'interquartilerange',
 	'interquartilerange.exc',
 	'mode',
-	'interquartilemean'
+	'interquartilemean',
 	// Boilerplate
 	// Enable access to the format identifier
-	// 'boilerplate',
+	 'boilerplate',
 
 	// Disabled by default
 

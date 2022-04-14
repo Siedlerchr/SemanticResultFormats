@@ -74,8 +74,8 @@
 
 				// If you need to see what data you've got from your result printer
 				// it is always helpfull to do
-
-				// console.log( data );
+				 console.log("Boilerplate ns");
+				 console.log( data );
 
 				// Happy coding ...
 

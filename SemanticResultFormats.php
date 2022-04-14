@@ -100,7 +100,7 @@ class SemanticResultFormats {
 
 		$formatClasses = [
 			// Assign the Boilerplate class to a format identifier
-			// 'boilerplate' => 'SRFBoilerplate',
+		    'boilerplate' => 'SRFBoilerplate',
 			'timeline' => 'SRFTimeline',
 			'eventline' => 'SRFTimeline',
 			'vcard' => 'SRF\vCard\vCardFileExportPrinter',

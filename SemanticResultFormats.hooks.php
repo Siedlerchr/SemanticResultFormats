@@ -49,7 +49,7 @@ final class SRFHooks {
 
 			// Boilerplate
 			// Register your testclass
-			// 'formats/Boilerplate',
+			 'formats/Boilerplate',
 		];
 
 		foreach ( $testFiles as $file ) {

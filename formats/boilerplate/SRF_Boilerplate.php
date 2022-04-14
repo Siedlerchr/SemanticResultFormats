@@ -253,16 +253,21 @@ class SRFBoilerplate extends SMWResultPrinter {
 		return Html::rawElement(
 			'div',
 			[
-				'class' => 'srf-boilerplate'
+				'class' => 'boilerplate' ,
 			],
-			$processing . Html::element(
+			Html::element(
 				'div',
 				[
-					'id' => $ID,
+					'class' => 'top'
+				],
+				''
+			) . $resourceFormatter->placeholder() . Html::element(
+				'div',
+				[
+					'id' => $id,
 					'class' => 'container',
 					'style' => 'display:none;'
-				],
-				null
+				]
 			)
 		);
 	}

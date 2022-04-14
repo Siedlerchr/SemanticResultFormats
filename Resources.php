@@ -1004,29 +1004,29 @@ return [
 	'ext.srf.gantt' => $formatModule + [
 			'scripts' => 'Gantt/resources/ext.gantt.js',
 			'dependencies' => 'ext.mermaid'
-	]
+	],
 
 	// Boilerplate example registration
-	/*
+
 		// Simple implementation
-		'ext.srf.boilerplate.simple' => $formatModule + array(
+		'ext.srf.boilerplate.simple' => $formatModule + [
 			'scripts' => 'boilerplate/resources/ext.srf.boilerplate.simple.js',
 			'styles'  => 'boilerplate/resources/ext.srf.boilerplate.css',
-			'messages' => array(
+			'messages' => [
 				'srf-boilerplate-message'
-			),
-		);
+			],
+		],
 
 		// Using the semanticFormats namespace class implementation
-		'ext.srf.boilerplate.namespace' => $formatModule + array(
+		'ext.srf.boilerplate.namespace' => $formatModule + [
 			'scripts' => 'boilerplate/resources/ext.srf.boilerplate.namespace.js',
 			'styles'  => 'boilerplate/resources/ext.srf.boilerplate.css',
-			'dependencies' => array (
+			'dependencies' => [
 				'ext.srf.util'
-			),
-			'messages' => array(
+			],
+			'messages' => [
 				'srf-boilerplate-message'
-			),
-		);
-	*/
+			],
+		]
+
 ];

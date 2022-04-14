@@ -55,13 +55,14 @@
 			// Hide the spinner which belongs to the outer wrapper
 			$this.find( '.srf-spinner' ).hide();
 
+			var filter = container.append('<div id="filter">TestDAta</div>');
 			// You got everything you need to work your magic
 			// A clean instance, data from the wiki, and a separate container
 
 			// If you need to see what data you've got from your result printer it is
 			// always helpfull to do
-
-			// console.log( data );
+			 console.log("Boilerplate");
+			 console.log( data );
 
 			// Happy coding ...
 
